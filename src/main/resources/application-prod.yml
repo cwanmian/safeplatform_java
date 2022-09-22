@@ -1,0 +1,17 @@
+server:
+#  ssl:
+#    key-store: classpath:cer.pfx
+#    key-store-password: T0qjlCI5
+#    key-store-type: PKCS12
+#    enabled: true
+  port: 8383
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ccwme
+    password: cwm1134128812
+    url: jdbc:mysql://localhost:3306/bugmanager
+  web:
+    resources:
+      static-locations: file:/www/wwwroot/tongzhuyunweb/
+filespath: /www/wwwroot/tongzhuyunweb/
