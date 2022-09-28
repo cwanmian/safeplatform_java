@@ -6,5 +6,5 @@ spring:
     url: jdbc:mysql://localhost:3306/bugmanager
   web:
     resources:
-      static-locations: file:D:\react-stu\safeplatformlogin\build\,file:D:\react-stu\safeplatform\build
-filespath: E:\xiaochengxufile\
+      static-locations: file:D:\react-stu\safeplatformlogin\build\,file:D:\react-stu\safeplatform\build,file:D:\IdeaJAVA\bugmanager_filepath\
+filespath: D:\IdeaJAVA\bugmanager_filepath\
